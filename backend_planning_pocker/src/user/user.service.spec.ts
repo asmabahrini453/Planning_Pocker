@@ -28,10 +28,10 @@ describe('UserController', () => {
       role: 'productOwner',
     };
 
-    const mockUser: User = { 
-      id: 1, 
-      pseudo: 'Asma', 
-      role: 'productOwner' // Type correct maintenant
+    const mockUser: User = {
+      id: 1,
+      pseudo: 'Asma',
+      role: 'productOwner', // Type correct maintenant
     };
     jest.spyOn(service, 'createUser').mockReturnValue(mockUser);
 
@@ -55,10 +55,10 @@ describe('UserController', () => {
   });
 
   it('should return a user by id', () => {
-    const mockUser: User = { 
-      id: 1, 
-      pseudo: 'Test', 
-      role: 'employee' 
+    const mockUser: User = {
+      id: 1,
+      pseudo: 'Test',
+      role: 'employee',
     };
     jest.spyOn(service, 'findById').mockReturnValue(mockUser);
 

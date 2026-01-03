@@ -44,12 +44,12 @@ describe('UserController', () => {
       role: 'productOwner',
     };
 
-    const mockUser: User = { 
-      id: 1, 
-      pseudo: 'Asma', 
-      role: 'productOwner'
+    const mockUser: User = {
+      id: 1,
+      pseudo: 'Asma',
+      role: 'productOwner',
     };
-    
+
     mockUserService.createUser.mockReturnValue(mockUser);
 
     const result = controller.createUser(dto);
@@ -63,7 +63,7 @@ describe('UserController', () => {
       { id: 1, pseudo: 'Test1', role: 'employee' },
       { id: 2, pseudo: 'Test2', role: 'productOwner' },
     ];
-    
+
     mockUserService.findAll.mockReturnValue(mockUsers);
 
     const result = controller.findAll();
@@ -73,12 +73,12 @@ describe('UserController', () => {
   });
 
   it('should return a user by id', () => {
-    const mockUser: User = { 
-      id: 1, 
-      pseudo: 'Test', 
-      role: 'employee' 
+    const mockUser: User = {
+      id: 1,
+      pseudo: 'Test',
+      role: 'employee',
     };
-    
+
     mockUserService.findById.mockReturnValue(mockUser);
 
     const result = controller.findById(1);

@@ -1,4 +1,3 @@
-
 export type Role = 'productOwner' | 'employee';
 
 export class User {
