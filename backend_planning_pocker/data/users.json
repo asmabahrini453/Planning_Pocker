@@ -3,5 +3,15 @@
     "id": 1,
     "pseudo": "Asma",
     "role": "productOwner"
+  },
+  {
+    "id": 2,
+    "pseudo": "John",
+    "role": "employee"
+  },
+  {
+    "id": 3,
+    "pseudo": "Bernard",
+    "role": "employee"
   }
 ]

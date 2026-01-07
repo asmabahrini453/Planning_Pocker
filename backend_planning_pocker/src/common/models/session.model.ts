@@ -11,4 +11,5 @@ export class Session {
   mode: SessionMode;
   votes: Record<number, number | 'cafe'>;
   status: SessionStatus;
+  round: number
 }

@@ -1,7 +1,7 @@
-import { BacklogDto } from "backlog/dto/backlog.dto";
 import { IsString } from "class-validator";
+import { BacklogDto } from "./backlog.dto";
 
-export class CreateApplicationDto {
+export class ApplicationDto {
   @IsString()
   name: string;
 

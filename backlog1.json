@@ -1,0 +1,15 @@
+{
+  "name": "Planning Poker App",
+  "backlog": {
+    "userStories": [
+      {
+        "title": "Login",
+        "description": "Authentification utilisateur"
+      },
+      {
+        "title": "Dashboard",
+        "description": "Afficher le dashboard"
+      }
+    ]
+  }
+}
